@@ -5,16 +5,16 @@ import style from './Instagram.module.css'
 
 export default function Instagram() {
     return (
-        <Container>
-            <Row >
+        
+            <div className={style.imageBox}>
                 {DataImages.map((e) => {
                     return (
-                        <Col key={e.id} sm={12} md={6} lg={4}>
+                        <div>
                             <div className={style.size}><img src={e.imageSmall} /></div>
-                        </Col>
+                        </div>
                     )
                 })}
-            </Row>
-        </Container>
+            </div>
+       
     )
 }

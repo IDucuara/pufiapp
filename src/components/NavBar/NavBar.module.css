@@ -20,8 +20,8 @@
     justify-content: center;
     align-items: center;
     justify-content: center;
-    margin-left: 18%;
-    margin-right: 18%;
+    margin-left: 25%;
+    margin-right: 25%;
    /*  background-color: red; */
     
     
@@ -73,5 +73,8 @@
 }
 .account .section h6{
     font-size: 14px;
+}
+.section h6{
+    color: white;
 }
 

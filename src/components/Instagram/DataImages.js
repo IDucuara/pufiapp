@@ -3,53 +3,46 @@ import { v4 as uuidv4 } from "uuid"
 const DataImages = [
     {
         id: uuidv4(),
-        title: "Mayatoon",
+        title: "Image One",
         category: "Portrait",
-        type: "vector",
-        imageSmall: "https://docuraillustration.com/img/portfolio/Docura_Illustration_Portrait_Digital_Art_vectorArt__vector_MAYATOON-small.jpg",
-        imageBig: "https://docuraillustration.com/img/portfolio/Docura_Illustration_Portrait_Digital_Art_vectorArt__vector_MAYATOON.jpg"
+        imageSmall: "https://docuraillustration.com/img/test/insta1.jpg",
+        
     },
     {
         id: uuidv4(),
-        title: "Chilling Raptor",
-        category: "Characters",
-        type: "vector",
-        imageSmall: "https://docuraillustration.com/img/portfolio/Docura_Illustration_Characterdesign_Digital_Art_conceptart_childrensbook__vector_CHILLINGRAPTOR_small.jpg",
-        imageBig: "https://docuraillustration.com/img/portfolio/Docura_Illustration_Characterdesign_Digital_Art_conceptart_childrensbook__vector_CHILLINGRAPTOR.jpg"
-    },
-    {
-        id: uuidv4(),
-        title: "Monk Monkey",
-        category: "Characters",
-        type: "vector",
-        imageSmall: "https://docuraillustration.com/img/portfolio/Docura_Illustration_Characterdesign_Digital_Art_conceptart_childrensbook__vector_MONKEYZEN_small.jpg",
-        imageBig: "https://docuraillustration.com/img/portfolio/Docura_Illustration_Characterdesign_Digital_Art_conceptart_childrensbook__vector_MONKEYZEN.jpg"
-    },
-    {
-        id: uuidv4(),
-        title: "Kobe",
+        title: "Image Two",
         category: "Portrait",
-        type: "vector",
-        imageSmall: "https://docuraillustration.com/img/portfolio/Docura_Illustration_Portrait_Digital_Art_vectorArt__vector_KOBE_small.jpg",
-        imageBig: "https://docuraillustration.com/img/portfolio/Docura_Illustration_Portrait_Digital_Art_vectorArt__vector_KOBE.jpg"
+        imageSmall: "https://docuraillustration.com/img/test/insta2.jpg",
+        
     },
     {
         id: uuidv4(),
-        title: "Fresh Fish",
-        category: "Characters",
-        type: "vector",
-        imageSmall: "https://docuraillustration.com/img/portfolio/Docura_Illustration_Characterdesign_Digital_Art_conceptart_childrensbook__vector_FRESHFISH_small.jpg",
-        imageBig: "https://docuraillustration.com/img/portfolio/Docura_Illustration_Characterdesign_Digital_Art_conceptart_childrensbook__vector_FRESHFISH.jpg"
+        title: "Image Three",
+        category: "Portrait",
+        imageSmall: "https://docuraillustration.com/img/test/insta3.jpg",
+        
     },
     {
         id: uuidv4(),
-        title: "Sacred Forest Godness",
-        category: "Characters",
-        type: "vector",
-        imageSmall: "https://docuraillustration.com/img/portfolio/Docura_Illustration_Characterdesign_Digital_Art_conceptart_childrensbook__vector_bocetotem_small.jpg",
-        imageBig: "https://docuraillustration.com/img/portfolio/Docura_Illustration_Characterdesign_Digital_Art_conceptart_childrensbook__vector_bocetotem.jpg"
+        title: "Image Four",
+        category: "Portrait",
+        imageSmall: "https://docuraillustration.com/img/test/insta4.jpg",
+        
     },
-
+    {
+        id: uuidv4(),
+        title: "Image Five",
+        category: "Portrait",
+        imageSmall: "https://docuraillustration.com/img/test/insta5.jpg",
+        
+    },
+    {
+        id: uuidv4(),
+        title: "Image Two",
+        category: "Portrait",
+        imageSmall: "https://docuraillustration.com/img/test/insta6.jpg",
+        
+    },
    
 ]
 
