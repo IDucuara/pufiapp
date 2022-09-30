@@ -1,21 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
 
-h1 {
-	font-family: 'Dokdo', cursive;
-	color: rgb(0, 111, 185);
-	font-size: 60px;
 
-}
-
-.images img {
-	margin-bottom: 2%;
-	width: 95%;
-}
 
 .container {
 	/* background-color: red; */
 	width: 100%;
 	height: 100vh;
+	padding: 0;
 
 
 }
