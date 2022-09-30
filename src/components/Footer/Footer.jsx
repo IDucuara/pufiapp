@@ -1,37 +1,43 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import style from '../Footer/Footer.module.css'
+import pufiLogoB from '../../images/pufilogoB.png'
+import secure from '../../images/secure.jpg'
+import red1 from '../../images/fb.png'
+import red2 from '../../images/twitter.png'
+import red3 from '../../images/insta.png'
 
 export default function Footer() {
   return (
-    <div className='content'>
+    <div className={style.content}>
 
-      <div className='logo'>LOGO</div>
+      <div className={style.logo}><img src={pufiLogoB} alt='pufi logo black' /></div>
 
-      <div className='products'>
-        <Link to='/rain'>PUFI RAIN</Link>
-        <Link to='/puff'>PUFI PUFF</Link>
-        <Link to='/cart'>PUFI CART</Link>
-        <Link to='/nap'>PUFI NAP</Link>
+      <div className={style.products}>
+        <Link to='/rain' style={{textDecoration:'none', color:'black'}}>PUFI RAIN</Link>
+        <Link to='/puff' style={{textDecoration:'none', color:'black'}}>PUFI PUFF</Link>
+        <Link to='/cart' style={{textDecoration:'none', color:'black'}}>PUFI CART</Link>
+        <Link to='/nap' style={{textDecoration:'none', color:'black'}}>PUFI NAP</Link>
       </div>
 
-      <div className='contact'>
+      <div className={style.contact}>
         <h5>CONTACTO</h5>
         <h5>AYUDA</h5>
         <h5>CÓMO COMPRAR</h5>
         <h5>TÉRMINOS Y CONDICIONES</h5>
       </div>
 
-      <div className='secure'>
+      <div className={style.secure}>
         <h5>COMPRA 100% SEGURA</h5>
-        <img src='' alt='compra segura certificado' />
+        <img src={secure} alt='compra segura certificado'  />
       </div>
 
 
-      <div className='social'>
+      <div className={style.social}>
         <h5>SEGUINOS EN</h5>
-        <img src='' alt='facebook icon' />
-        <img src='' alt='twitter icon' />
-        <img src='' alt='instagram icon' />
+        <img src={red1} alt='facebook icon' />
+        <img src={red2} alt='twitter icon' />
+        <img src={red3} alt='instagram icon' />
       </div>
       
     </div>

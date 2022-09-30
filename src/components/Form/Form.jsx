@@ -66,6 +66,7 @@ export default function Form() {
     <form action="https://formspree.io/f/mwkzbkye" method="post">
       <div>
         <input 
+        
         type='email'
         id='email'
         placeholder="Ingresa tu email"
