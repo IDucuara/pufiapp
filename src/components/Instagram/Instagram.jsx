@@ -9,7 +9,7 @@ export default function Instagram() {
             <div className={style.imageBox}>
                 {DataImages.map((e) => {
                     return (
-                        <div>
+                        <div key={e.id}>
                             <div className={style.size}><img src={e.imageSmall} /></div>
                         </div>
                     )

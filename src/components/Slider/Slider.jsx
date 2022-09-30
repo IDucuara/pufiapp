@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
 import image1 from '../../images/image1.jpg';
 import image2 from '../../images/image2.jpg';
 import image3 from'../../images/image3.jpg'
-import NavBar from '../NavBar/NavBar';
+import style from '../Landing/Landing.module.css'
 
 export default function Slider() {
   const [index, setIndex] = useState(0);
@@ -16,7 +16,8 @@ export default function Slider() {
   return (
  
       
-    <Carousel activeIndex={index} onSelect={handleSelect}>
+    <Row className={style.box2} >
+      <Carousel activeIndex={index} onSelect={handleSelect} style={{padding:'0',margin:'0'}} >
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -44,6 +45,7 @@ export default function Slider() {
         
       </Carousel.Item>
     </Carousel>
+    </Row>
     
   );
 }

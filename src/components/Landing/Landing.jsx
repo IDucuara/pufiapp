@@ -3,9 +3,6 @@ import { Col, Container, Row } from 'react-bootstrap'
 import NavBar from '../NavBar/NavBar'
 import style from '../Landing/Landing.module.css'
 import Slider from '../Slider/Slider'
-
-
-import { Link } from 'react-router-dom'
 import Instagram from '../Instagram/Instagram'
 import Form from '../Form/Form'
 import Footer from '../Footer/Footer'
@@ -17,20 +14,22 @@ import PufiNap from '../banners/PufiNap/PufiNap'
 export default function Landing() {
 
   return (
-    <div  className={style.container} >
+    <div className={style.container} >
       <Row >
         <NavBar />
         <Slider />
       </Row>
 
       {/* Products Section */}
-      <PufiRain />
-      <PufiPuff />
-      <PufiCart />
-      <PufiNap />
+      <div >
+        <PufiRain />
+        <PufiPuff />
+        <PufiCart />
+        <PufiNap />
+      </div>
 
       {/* Instagram Section */}
-      <></>
+
       <Row>
         <h6> INSTAGRAM</h6>
         <h1>#ESPUFI</h1>

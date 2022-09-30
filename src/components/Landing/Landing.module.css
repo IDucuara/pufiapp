@@ -9,16 +9,36 @@
 }
 .image{
 	background-color: violet;
+	padding: 0;
+	margin: 0;
 	
 }
 .image img{
-	width: auto;
+	width: 100%;
+	display: block;
+}
+
+.box2{
+	
+	background-color: rgb(57, 13, 113);
+	padding: 0%;
+	margin: 0;
+	width: 100vw;
+
+	
+}
+.description{
+	/* background-color: red; */
+	padding: 0;
+	margin: 0;
+	width: 100vw;
 }
 
 .productCart{
-	background-color: greenyellow;
-	margin: 0;
-	
+	/* background-color: greenyellow; */
+	margin: 5%;
+	padding: 10%;
+
 }
 
 .box{
