@@ -1,0 +1,80 @@
+.nav{
+    background-color:none;
+    width: 100%;
+    z-index: 99;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-content:space-around;
+    align-items: center;
+    margin-top: 1%;
+    
+}
+.linklanding{
+    margin: 0 30%;
+}
+.components{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+   /*  background-color: red; */
+    
+    
+    
+}
+
+.components .icon{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    background-color: yelow;
+    align-content: center;
+    align-items: center;
+    margin-right: 40px;
+    
+}
+.components .icon img{
+    height: 35%;
+    width: 35%;
+}
+.components .icon h3{
+    font-size: 20px;
+    font-family: 'Gill Sans',  sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-top: 2%;
+    font-weight: 700;
+
+}
+.icon{
+    /* background-color: yellow; */
+    width: 100%;
+    margin-right: 10%;
+    
+}
+
+
+.account{
+    display: flex;
+    flex-direction: row;
+    color:white;
+    align-items: center;
+    align-content: center;
+}
+.account .section{
+    margin-right: 30px;
+    width: 90px;
+}
+.account .section h6{
+    font-size: 14px;
+}
+.section h6{
+    color: white;
+}
+
