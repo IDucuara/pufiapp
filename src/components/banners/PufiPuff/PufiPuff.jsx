@@ -11,9 +11,10 @@ export default function PufiPuff() {
     <Col className={style.description}>
       <div className={style.productCart}>
         <img src={image6} alt='puff outdoor' />
-        <h3>Pufi PUFF</h3>
+        <h2>Pufi PUFF</h2>
         <p>Descripción de este producto</p>
-        <Link to='/puff'> VER MAS</Link>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae suscipit cupiditate totam ratione atque cumque sunt, quisquam placeat, soluta velit esse. </p>
+        <Link to='/puff' style={{textDecoration:'none', color:'black'}}> VER MAS</Link>
       </div>
     </Col>
     <Col className={style.image}>

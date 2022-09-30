@@ -30,7 +30,7 @@ export default function Landing() {
 
       {/* Instagram Section */}
 
-      <Row>
+      <Row className={style.box}>
         <h6> INSTAGRAM</h6>
         <h1>#ESPUFI</h1>
         <Instagram />

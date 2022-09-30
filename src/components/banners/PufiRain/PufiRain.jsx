@@ -14,9 +14,10 @@ export default function PufiRain() {
     <Col className={style.description}>
       <div className={style.productCart}>
         <img src={image5} alt='rain umbrellas' />
-        <h3>Pufi RAIN</h3>
+        <h2>Pufi RAIN</h2>
         <p>Descripción de este producto</p>
-        <Link to='/rain'> VER MAS</Link>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae suscipit cupiditate totam ratione atque cumque sunt, quisquam placeat, soluta velit esse. </p>
+        <Link to='/rain' style={{textDecoration:'none', color:'black'}}> VER MAS</Link>
       </div>
     </Col>
   </Row>

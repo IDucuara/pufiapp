@@ -40,6 +40,14 @@
 	padding: 10%;
 
 }
+.productCart h2{
+	font-size: 45px;
+	border-bottom-style: groove;
+	padding: 2%;
+}
+.productCart img{
+	width: 300px;
+}
 
 .box{
 	margin-top: 2%;

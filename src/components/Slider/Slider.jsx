@@ -17,6 +17,7 @@ export default function Slider() {
  
       
     <Row className={style.box2} >
+       
       <Carousel activeIndex={index} onSelect={handleSelect} style={{padding:'0',margin:'0'}} >
       <Carousel.Item>
         <img

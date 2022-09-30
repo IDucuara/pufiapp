@@ -82,7 +82,7 @@ export default function Form() {
                   </strong>
                 )}
       </div>
-      <button type="submit">Enviar</button>
+      <button to='/' >Enviar</button>
       </form>  
       
     </Row>
