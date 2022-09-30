@@ -38,7 +38,7 @@ const DataImages = [
     },
     {
         id: uuidv4(),
-        title: "Image Two",
+        title: "Image Six",
         category: "Portrait",
         imageSmall: "https://docuraillustration.com/img/test/insta6.jpg",
         
